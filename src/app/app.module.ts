@@ -16,6 +16,7 @@ import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 // untuk load sidedrawer
 import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular";
 import Theme from "@nativescript/theme";
+import { AboutComponent } from "./about/about.component";
 
 Theme.setMode(Theme.Dark);
 
@@ -35,6 +36,7 @@ Theme.setMode(Theme.Dark);
         PokemonDetailComponent,
         LoginComponent,
         ShellComponent,
+        AboutComponent,
     ],
     providers: [],
     schemas: [NO_ERRORS_SCHEMA],
